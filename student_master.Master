@@ -1,0 +1,786 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="student_master.master.cs" Inherits="college_management_system.student_master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   
+ <title>home</title>
+   <!-- Favicons -->
+  <link href="assets/img/MAIN.jpeg" rel="icon">
+  <link href="assets/MAIN.jpeg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" />
+
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div id="topnav">
+        <p id="p">Tollfree Number:- 1800180056 <span id="s">Our Social Page</span></p>
+    </div>
+    <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span>GNSU</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Course</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="faculty.aspx">Faculty</a></li>
+          
+          <li class="dropdown"><a href="#"><span>Registration </span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              
+              <li class="dropdown"><a href="login.aspx"><span>Select The Registration</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="registration.aspx">Registration </a></li>
+                  <li><a href="login.aspx">login </a></li>
+                  
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">The Top Ranker<span> University Of Bihar</span> </h1>
+          <h4 data-aos="fade-up" data-aos-delay="400">Inspired by faith, informed by our core mission and values, and dedicated to the ongoing legacy of our founders, Gopal Narayan Singh University sets the standard for an engaged, contemporary and nurturing institution that fosters the transformative power of advanced learning.</h4>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Get Started</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/MAIN.jpeg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h2 id="aa">About Our College</h2>
+              <h2>Your first step is to define yourself. Your destiny is to redefine the world..</h2>
+              <p>
+                Gopal Narayan Singh University, Jamuhar (Rohtas) is located on old GT Road between Sasaram and Dehri-on-sone at an equidistance of 8 Kms.
+
+It has a sprawling campus of 50+ acres encompassing a State of the Art Medical College & Hospital, Faculty of Management Studies, Faculty of Commerce, Faculty of Nursing, Faculty of Information Technology, Faculty of Law, Department of Mass Communication & Journalism, Faculty of Pharmacy, Faculty of Paramedical Sciences, Faculty of Agriculture Sciences, Department of Library & Information Sciences and Department of Education.
+
+
+              </p>
+              <div class="text-center text-lg-start">
+                <a href="#home" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Read More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/gnsu1.jpeg" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- ======= Values Section ======= -->
+    <section id="values" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Our Best Course</h2>
+          <p>Best Course In University</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <img src="assets/BCA.png" class="img-fluid" alt="">
+              <h3>Bachelor Of Computer Application </h3>
+              <p>Bachelor in Computer Application (BCA) is an undergraduate degree course in computer applications. ... The duration of the course is 3 years and divided into 6 semesters. It comprises of the subjects like database, networking, data structure, core programming languages like 'C' and 'java.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <img src="assets/MCA.png" class="img-fluid" alt="">
+              <h3>Master Of Computer Application</h3>
+              <p>Earn an MCA degree with a future-ready specializations From JAIN (Deemed-to-be University) Dedicated Career Support | 400+ Hiring Partners | Alumni's Received Upto 48....</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+            <div class="box">
+              <img src="assets/MBA.jpg" class="img-fluid" alt="">
+              <h3>Master of Business Administer.</h3>
+              <p>MBA is an internationally accredited post-graduate degree for developing business and management skills amongst future business leaders and ....</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Values Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="4000 " data-purecounter-duration="1" class="purecounter"></span>
+                <p>Happy Student</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+                <p>College In GNSU</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-headset" style="color: #15be56;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="60 " data-purecounter-duration="1" class="purecounter"></span>
+                <p>Programmes</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-people" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="400 " data-purecounter-duration="1" class="purecounter"></span>
+                <p>Faculty Member</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+   
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <p> Course</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box blue">
+              <i class="ri-discuss-line icon"></i>
+              <h3>MBA</h3>
+              <p>MBA is a two-year postgraduate management course that deals with administering human resources, finance, marketing, 
+                  sales, customer services. The goal of this course is to produce trained professionals for effective management in
+                  this entrepreneurial world. MBA graduates have diverse job opportunities in the airline, fashion, 
+                  marketing, educational, and information technology..</p>
+              <a href="MBA1.aspx" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-box orange">
+              <i class="ri-discuss-line icon"></i>
+              <h3>MCA</h3>
+              <p>Master of Computer Applications (MCA) is a two year professional post-graduate programme
+                  for candidates wanting to delve deeper into the world of computer application development
+                  with the help of learning modern programming language..</p>
+              <a href="mca.aspx" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-box green">
+              <i class="ri-discuss-line icon"></i>
+              <h3>BCA</h3>
+              <p>Bachelor of Computer Applications or BCA is one of the most opted computer courses after 12th standard.
+                  Running for a period of 3 years, it imparts extensive knowledge in Computer Fundamentals,
+                  Programming Languages, Database Systems, Information Security and Web Development.</p>
+              <a href="bca.aspx" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-box red">
+              <i class="ri-discuss-line icon"></i>
+              <h3>BBA</h3>
+              <p>BBA full form is Bachelor of Business Administration. BBA course deals with knowledge and training in 
+                  management and administration of business by imparting managerial and entrepreneurial
+                  skills to management aspirants from any stream like Science, commerce or arts. BBA develops entrepreneurship skills.</p>
+              <a href="bba.aspx" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-box purple">
+              <i class="ri-discuss-line icon"></i>
+              <h3>MSC.IT</h3>
+              <p>There is no dearth of job opportunities after having a degree in Msc.IT.
+                  Some of the jobs that a MSc IT graduate can look for in a corporate sector are: Computer Programmer, 
+                  Software Engineer, Security Expert, Systems Support Administrator, IT Consultant, Network Administrator and Web Developer.</p>
+              <a href="msc.aspx" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+            <div class="service-box pink">
+              <i class="ri-discuss-line icon"></i>
+              <h3>BSC</h3>
+              <p>Students pursuing a degree in BSc General course can apply for a job in fields such as teaching, banking,
+                  and marketing. There are usually many job prospects for students after pursuing BSc Honours and BSc 
+                  general courses in both science and non-science fields.</p>
+              <a href="bsc.aspx" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Services Section -->
+
+   
+
+   
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>GAllery</h2>
+          <p>See our latest images</p>
+        </header>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Students</li>
+              <li data-filter=".filter-card">College</li>
+              <li data-filter=".filter-web">Celebration</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/w3.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Students 1</h4>
+                <p>Students</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/w3.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Students 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Celebration1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Celebration</h4>
+                <p>Celebration image</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Celebration1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Celebration"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/w4.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Students 2</h4>
+                <p>Students</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/w4.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Students 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Rally3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>College </h4>
+                <p>College photo</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Rally3.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Celebration2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Celebration</h4>
+                <p>Celebration image</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Celebration2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Celebration"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/w5.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Students 3</h4>
+                <p>Students</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/w5.jpeg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Students 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Rally1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>College 1</h4>
+                <p>College photo</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Rally1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="College 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Rally2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>College 3</h4>
+                <p>College photo</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Rally2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="College 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Celebration7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Celebration</h4>
+                <p>Celebration image</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Celebration7.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Celebration"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Top ranker Faculty</h2>
+          <p>What do you know about them</p>
+        </header>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>First of its kind Landmark achievement by Dr.Ipseeta Nanda (dean) Faculty of information Technology, Gopal Narayan singh University,jamuhar,sasaram,Bihar.
+                  
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/Faculty1.jpg" class="testimonial-img" alt="">
+                  <h3>Dr.Ispeeta Nanda</h3>
+                  <h4>Dean of IT</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>First of its kind Landmark achievement by Mr.Kanahaiya Lal Ambashtha (Assistant Professor) Faculty of information Technology, Gopal Narayan singh University,jamuhar,sasaram,Bihar.
+                  
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/Faculty2.jpg" class="testimonial-img" alt="">
+                  <h3>Mr.Kanahaiya Lal Ambashtha</h3>
+                  <h4>Assistant Professor</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  First of its kind Landmark achievement by Mr. Aman Routh (Assistant Professor) Web master at, Gopal Narayan singh University,jamuhar,sasaram,Bihar and He Qualified UGC NET (july2019)in very first attempt.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/Faculty3.jpg" class="testimonial-img" alt="">
+                  <h3>Mr.Aman Routh</h3>
+                  <h4>Assistant Professor</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  He is (Assistant Professor) in Department of IT, Gopal Narayan Singh UNiversity, and have 13year + experience in teaching Departments <br />(BCA/MCA/CS/IT/BBA/MBA).
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/Faculty5.jpg" class="testimonial-img" alt="">
+                  <h3>Dr. Satish Gupta</h3>
+                  <h4>Assistant Professor</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/Faculty4.jpg" class="testimonial-img" alt="">
+                  <h3>Dr.Sumit Kumar</h3>
+                  <h4>Assistant Professor</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- End Testimonials Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>jamuhar, sasaram,<br>NH -2 , 821305</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>1800-121-0051<br>9431899002</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@gnsu.as.in.com<br>facultyofitgnsu@gmail.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday - Saturday<br>9:00AM - 08:00PM</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                 <a href=""> <button type="submit">Send Message</button></a> 
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h4>Latest news update</h4>
+            <p>MCA department are coming soon</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="">
+              <span>GNSU</span>
+            </a>
+            <p>"The GNS university System is made up of people who want more–we are chasing extraordinary. As innovative,
+                diverse, globally engaged citizens and leaders, we enrich our culture and society, create prosperity, and serve the
+                public good. Gopal Narayan Singh University, Jamuhar (Rohtas) is located on old GT Road between
+                Sasaram and Dehri-on-sone at an equidistance of 8 Kms. It has a sprawling campus of 50+ acres
+                with State of the Art Infrastructure running 56+ courses under 11 different departments."</p>
+            <div class="social-links mt-3">
+              <a href="https://twitter.com/GnsUniversity" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.facebook.com/GNSUniversity/" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/gnsuniversity" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+        
+                <h3>
+                  Campuses
+                   </h3>
+                           <ul>
+                                <li><a href="https://gnsu.ac.in/campus/narayan-medical-college">Narayan Medical College &amp; Hospital (Faculty of Medicine)</a></li>
+                                <li><a href="https://gnsu.ac.in/campus/ost">Narayan Nursing College (Faculty of Nursing)</a></li>
+                                <li><a href="https://gnsu.ac.in/campus/narayan-academy-of-managerial-excellence">Narayan Academy of Managerial Excellence (Faculty of Management Studies)</a></li>
+                                <li><a href="https://gnsu.ac.in/campus/narayan-institute-of-pharmacy">Narayan Institute of Pharmacy</a></li>
+                                <li><a href="https://gnsu.ac.in/campus/narayan-institute-of-agricultural-sciences">Narayan Institute of Agricultural Sciences  ( Faculty of Agriculture | Horticulture | Fisheries )</a></li>
+                                <li><a href="https://gnsu.ac.in/campus/narayan-school-of-law">Narayan School of Law</a></li>
+                                <li><a href="https://gnsu.ac.in/campus/narayan-paramedical-institute-and-allied-sciences">Narayan Paramedical Institute &amp; Allied Sciences</a></li>
+                                <li><a href="https://gnsu.ac.in/campus/department of commerce">Faculty of Commerce</a></li>
+                                <li><a href="https://gnsu.ac.in/campus/Faculty_of_Information_Technology">Faculty of Information Technology</a></li>
+                                <li><a href="https://gnsu.ac.in/campus/Department of Journalism &amp; Mass Communication">Department of Journalism &amp; Mass Communication</a></li>
+                                <li><a href="https://gnsu.ac.in/campus/Department of Library &amp; Information Sciences">Department of Library &amp; Information Sciences</a></li>
+                                                   
+                           </ul>
+                        </div>
+         
+                        <div class="col-lg-2 col-6 footer-links">
+                           <h3>
+                              Other Links
+                           </h3>
+                           <ul>
+                           <li><a href="https://gnsu.ac.in/programs">Programs</a></li>
+                           <li><a href="https://gnsu.ac.in/faculty-members">Faculty Members</a></li>
+
+                           <li><a href="https://gnsu.ac.in/examinations">Examinations</a></li>
+                           <li><a href="https://gnsu.ac.in/admission">Admission</a></li>
+
+                           <li><a href="https://gnsu.ac.in/updates">News & Updates</a></li>
+                              <li><a href="https://gnsu.ac.in/careers">Careers</a></li>
+                              <li><a href="https://gnsu.ac.in/faqs">FAQS</a></li>
+                              <li><a href="https://gnsu.ac.in/contact-us">Contact</a></li>
+                           </ul>
+                        </div>
+
+           <div class="col-lg-2 col-6 footer-links">
+            <h4>Contact Us</h4>
+            <p>
+              jamuhar<br>
+              sasaram ,bihar 821305<br>
+              United States <br><br>
+              <strong>Phone:</strong>9431899002 <br>
+              <strong>Email:</strong> info@gnsu.ac.in<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>GNSU</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="">GNSU</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

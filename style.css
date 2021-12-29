@@ -1,0 +1,27 @@
+﻿#aa{
+    color:black;
+    font-size:17px;
+}
+span{
+    color:orange;
+}
+#topnav {
+    width: 100%;
+    background-color: orange;
+    height: 20px;
+}
+#p{
+    color:black;
+    font-weight:bold;
+    margin-left:80px;
+    position:relative;
+    bottom:2px;
+}
+#s {
+    color: black;
+    font-weight: bold;
+    position: relative;
+    bottom: 1px;
+    float:right;
+    margin-right:200px;
+}
